@@ -1,0 +1,114 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Team A61</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-left">
+                <div class="logo">A61-DTS Batch II</div>
+            </div>
+            <span class="fa menu-icon"></span>
+            <div class="header-right">
+                <a href="#proyek">Project Us</a>
+                <a href="#our-team">Profile Team</a>
+            </div>
+        </div>
+    </header>
+    <div class="heading">
+        <div class="container">
+            <h1>PROGATE TEAM</h1>
+            <h1>A61 - DTS KOMINFO <span class="batch">Batch 2</span></h1>
+            <p>Selamat Datang di Website Kami!</p>
+            <div class="btn-wrapper">
+                <a href="#" class="btn">Lihat Selengkapnya</a>
+            </div>
+        </div>
+    </div>
+
+    <main>
+        <div class="project-team">
+            <div class="container">
+                <div class="project-section" id="proyek">
+                    <h2>Project Us</h2>
+                    <div class="projects">
+                        <div class="project">
+                            <div class="project-icon">
+                            <img src="./img/HTML.png">
+                            <p>HTML</p>
+                            </div>
+                            <p class="text-contents">Bahasa yang digunakan untuk membuat sebuah halaman web. </p>
+                        </div>
+                        <div class="project">
+                            <div class="project-icon">
+                            <img src="./img/CSS.png">
+                            <p>CSS</p>
+                            </div>
+                            <p class="text-contents">Bahasa pemrograman desain yang berguna untuk menyederhanakan proses pembuatan website. </p>
+                        </div>
+                        <div class="project">
+                            <div class="project-icon">
+                                <img src="./img/JS.png">
+                                <p>JavaScript</p>
+                            </div>
+                                <p class="text-contents">Bahasa pemrograman tingkat tinggi dan dinamis. </p>
+                        </div>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="team-section" id="our-team">
+                <h2>Profile Team</h2>
+                <span class="border"></span>
+                <div class="user">
+                    <a href="#user1"><img src="./img/user.png" alt=""></a>
+                    <a href="#user2"><img src="./img/user.png" alt=""></a>
+                    <a href="#user3"><img src="./img/user.png" alt=""></a>
+                    <a href="#user4"><img src="./img/user.png" alt=""></a>
+                    <a href="#user5"><img src="./img/user.png" alt=""></a>
+                </div>
+                <div class="user-name" id="user1">
+                    <span class="name">Aldi rmdn</span>
+                    <span class="border"></span>
+                    <p>Bogor - Jawa Barat</p>
+                </div>
+                <div class="user-name" id="user2">
+                    <span class="name">Dhika</span>
+                    <span class="border"></span>
+                    <p>Bandung - Jawa Barat</p>
+                </div>
+                <div class="user-name" id="user3">
+                    <span class="name">Afif Fadhlurrochman</span>
+                    <span class="border"></span>
+                    <p>Depok - Jawa Barat</p>
+                </div>
+                <div class="user-name" id="user4">
+                    <span class="name">Aidil Setiawan</span>
+                    <span class="border"></span>
+                    <p>Palembang - Sumatera Barat</p>
+                </div>
+                <div class="user-name" id="user5">
+                    <span class="name">Agus Mega Jaya</span>
+                    <span class="border"></span>
+                    <p>Pati - Jawa Tengah</p>
+                </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="copyright">
+            <p>Progate Team A61 &#169; 2020, DTS KOMINFO Batch 2 </p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
